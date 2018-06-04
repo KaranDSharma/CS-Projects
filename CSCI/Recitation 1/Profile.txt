@@ -1,0 +1,14 @@
+——Student Profile——
+
+Name: 
+Karan Sharma
+
+Major/minor: 
+Computer Science + Business Administration
+
+Programming experience: 
+5 years of JavaScript
+
+What do you expect to learn in this course? 
+I expect to learn the syntax for C++ and Python and how to apply the languages.
+

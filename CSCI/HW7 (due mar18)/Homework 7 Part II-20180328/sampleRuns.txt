@@ -1,0 +1,512 @@
+Sample Run 1: 
+If books.txt or ratings.txt do no exist or are in a different folder
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Launch unsuccessful
+Error! books or ratings file could not be found.
+
+
+Sample Run 2:
+- files exist
+- existing user
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+Ben
+Welcome back, Ben
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?: 
+q
+Data successfully saved. Goodbye!
+
+
+Sample Run 3:
+- files exist
+- user name is empty string (user presses Enter accidentally), prompt user to enter name again
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+
+You provided an empty user name, Please provide a valid user name to login or register:
+Enter your name again:
+Ben
+Welcome back, Ben
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?: 
+q
+Data successfully saved. Goodbye!
+
+
+Sample Run 4:
+- files exist
+- new user
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+Anya
+Welcome to the Library, Anya
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?: 
+q
+Data successfully saved. Goodbye!
+
+Sample Run 5:
+- files exist
+- existing user
+- choose invalid menu option 
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+iren
+Welcome back, iren
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+t
+Please input a valid choice
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+q
+Data successfully saved. Goodbye!
+
+
+Sample Run 6:
+- files exist
+- existing user (enter the same user name as in Sample Run 4)
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+Anya
+Welcome back, Anya
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?: 
+q
+Data successfully saved. Goodbye!
+
+
+Sample Run 7:
+- files exist
+- existing user
+- choose menu option 1 (View your ratings)
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+Ben
+Welcome back, Ben
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?: 
+v
+Here are the books that you have rated: 
+Title : the hitchhiker's guide to the galaxy
+Rating : 5
+------------------------------
+Title : the sisterhood of the travelling pants
+Rating : 1
+------------------------------
+Title : the da vinci code
+Rating : 1
+------------------------------
+Title : the princess diaries
+Rating : -3
+------------------------------
+Title : ender's game
+Rating : 5
+------------------------------
+Title : ranger's apprentice series
+Rating : 5
+------------------------------
+Title : inkheart
+Rating : 5
+------------------------------
+Title : far north
+Rating : 5
+------------------------------
+Title : to kill a mockingbird
+Rating : 1
+------------------------------
+Title : the lion the witch and the wardrobe
+Rating : 3
+------------------------------
+Title : life of pi
+Rating : 1
+------------------------------
+Title : twilight series
+Rating : -5
+------------------------------
+Title : eragon
+Rating : 5
+------------------------------
+Title : hatchet
+Rating : 5
+------------------------------
+Title : the golden compass
+Rating : 5
+------------------------------
+Title : harry potter series
+Rating : 5
+------------------------------
+Title : holes
+Rating : 5
+------------------------------
+Title : the shadow club
+Rating : 5
+------------------------------
+Title : bone series
+Rating : 5
+------------------------------
+Title : the hobbit
+Rating : 5
+------------------------------
+Title : shattered
+Rating : 5
+------------------------------
+Title : the war of the worlds
+Rating : 5
+------------------------------
+Title : dealing with dragons
+Rating : 5
+------------------------------
+Title : the chrysalids
+Rating : -5
+------------------------------
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+q
+Data successfully saved. Goodbye!
+
+
+Sample Run 8:
+- files exist
+- new user (same name we just used in Sample Run 4)
+- choose menu option 1 (View your ratings)
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+Anya
+Welcome back, Anya
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?: 
+v
+You have not rated any books as yet: 
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+q
+Data successfully saved. Goodbye!
+
+
+Sample Run 9:
+- files exist
+- existing user
+- choose menu option 1 (View your ratings)
+- choose menu option 2 (Rate book)
+- enter book name for which user already has a rating
+- choose menu option 1 (View your ratings)
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+Ben
+Welcome back, Ben
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?: 
+v
+Here are the books that you have rated: 
+Title : the hitchhiker's guide to the galaxy
+Rating : 5
+------------------------------
+Title : watership down
+Rating : 1
+------------------------------
+Title : the sisterhood of the travelling pants
+Rating : 1
+------------------------------
+Title : the da vinci code
+Rating : 1
+------------------------------
+Title : the princess diaries
+Rating : -3
+------------------------------
+Title : ender's game
+Rating : 3
+------------------------------
+Title : ranger's apprentice series
+Rating : 5
+------------------------------
+Title : inkheart
+Rating : 5
+------------------------------
+Title : far north
+Rating : 5
+------------------------------
+Title : to kill a mockingbird
+Rating : 1
+------------------------------
+Title : the lion the witch and the wardrobe
+Rating : 3
+------------------------------
+Title : life of pi
+Rating : 1
+------------------------------
+Title : twilight series
+Rating : -5
+------------------------------
+Title : eragon
+Rating : 5
+------------------------------
+Title : hatchet
+Rating : 5
+------------------------------
+Title : the golden compass
+Rating : 5
+------------------------------
+Title : harry potter series
+Rating : 5
+------------------------------
+Title : holes
+Rating : 5
+------------------------------
+Title : the shadow club
+Rating : 5
+------------------------------
+Title : bone series
+Rating : 5
+------------------------------
+Title : the hobbit
+Rating : 5
+------------------------------
+Title : shattered
+Rating : 5
+------------------------------
+Title : the war of the worlds
+Rating : 5
+------------------------------
+Title : dealing with dragons
+Rating : 5
+------------------------------
+Title : the chrysalids
+Rating : -5
+------------------------------
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+r
+Enter the name of the book that you would like to rate:
+The Princess Diaries
+Enter your rating of the book:
+3
+Success!
+Thank-you. The rating for the book titled The Princess Diaries has been updated to 3
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+v
+Here are the books that you have rated: 
+Title : the hitchhiker's guide to the galaxy
+Rating : 5
+------------------------------
+Title : watership down
+Rating : 1
+------------------------------
+Title : the sisterhood of the travelling pants
+Rating : 1
+------------------------------
+Title : the da vinci code
+Rating : 1
+------------------------------
+Title : the princess diaries
+Rating : 3
+------------------------------
+Title : ender's game
+Rating : 3
+------------------------------
+Title : ranger's apprentice series
+Rating : 5
+------------------------------
+Title : inkheart
+Rating : 5
+------------------------------
+Title : far north
+Rating : 5
+------------------------------
+Title : to kill a mockingbird
+Rating : 1
+------------------------------
+Title : the lion the witch and the wardrobe
+Rating : 3
+------------------------------
+Title : life of pi
+Rating : 1
+------------------------------
+Title : twilight series
+Rating : -5
+------------------------------
+Title : eragon
+Rating : 5
+------------------------------
+Title : hatchet
+Rating : 5
+------------------------------
+Title : the golden compass
+Rating : 5
+------------------------------
+Title : harry potter series
+Rating : 5
+------------------------------
+Title : holes
+Rating : 5
+------------------------------
+Title : the shadow club
+Rating : 5
+------------------------------
+Title : bone series
+Rating : 5
+------------------------------
+Title : the hobbit
+Rating : 5
+------------------------------
+Title : shattered
+Rating : 5
+------------------------------
+Title : the war of the worlds
+Rating : 5
+------------------------------
+Title : dealing with dragons
+Rating : 5
+------------------------------
+Title : the chrysalids
+Rating : -5
+------------------------------
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+q
+Data successfully saved. Goodbye!
+
+
+Sample Run 10:
+- files exist
+- existing user
+- choose menu option 2 (Rate book)
+- enter book name for which user does not already have rating
+- choose menu option 1 (View your ratings)
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+Ben
+Welcome back, Ben
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?: 
+r
+Enter the name of the book that you would like to rate:
+Speak
+Enter your rating of the book:
+1
+Success!
+Thank-you. The rating for the book titled Speak has been updated to 1
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+v
+Here are the books that you have rated: 
+Title : the hitchhiker's guide to the galaxy
+Rating : 5
+------------------------------
+Title : watership down
+Rating : 1
+------------------------------
+Title : speak
+Rating : 1
+------------------------------
+Title : the sisterhood of the travelling pants
+Rating : 1
+------------------------------
+Title : the da vinci code
+Rating : 1
+------------------------------
+Title : the princess diaries
+Rating : 3
+------------------------------
+Title : ender's game
+Rating : 3
+------------------------------
+Title : ranger's apprentice series
+Rating : 5
+------------------------------
+Title : inkheart
+Rating : 5
+------------------------------
+Title : far north
+Rating : 5
+------------------------------
+Title : to kill a mockingbird
+Rating : 1
+------------------------------
+Title : the lion the witch and the wardrobe
+Rating : 3
+------------------------------
+Title : life of pi
+Rating : 1
+------------------------------
+Title : twilight series
+Rating : -5
+------------------------------
+Title : eragon
+Rating : 5
+------------------------------
+Title : hatchet
+Rating : 5
+------------------------------
+Title : the golden compass
+Rating : 5
+------------------------------
+Title : harry potter series
+Rating : 5
+------------------------------
+Title : holes
+Rating : 5
+------------------------------
+Title : the shadow club
+Rating : 5
+------------------------------
+Title : bone series
+Rating : 5
+------------------------------
+Title : the hobbit
+Rating : 5
+------------------------------
+Title : shattered
+Rating : 5
+------------------------------
+Title : the war of the worlds
+Rating : 5
+------------------------------
+Title : dealing with dragons
+Rating : 5
+------------------------------
+Title : the chrysalids
+Rating : -5
+------------------------------
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+q
+Data successfully saved. Goodbye!
+
+Sample Run 11:
+- files exist
+- existing user
+- choose menu option 3 (get recommendations)
+- choose menu option 4 (Quit)
+
+Running /home/ubuntu/workspace/Hmwk7/libraryDriver.cpp
+Data Loaded successfully!
+Welcome to the Library, What is your name?:
+Jim C
+Welcome back, Jim C
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?: 
+g
+Here are some of the books that we think you would like
+nineteen eighty-four (1984) by george orwell
+harry potter series by j.k. rowling
+bone series by jeff smith
+the war of the worlds by h g wells
+the chrysalids by john wyndham
+Would you like to (v)iew your ratings, (r)ate a book, (g)et recommendations, or (q)uit?:
+q
+Data successfully saved. Goodbye!
+
+
